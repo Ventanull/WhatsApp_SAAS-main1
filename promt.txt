@@ -1,1 +1,0 @@
-Ok, so what i want to edit in this project is to add randomness in send timings of massages its sending in whatsapp
