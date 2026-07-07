@@ -20,7 +20,7 @@ A production-ready Multi-User WhatsApp Messaging SaaS Panel built with React, No
 2. `npm install`
 3. Rename `.env.example` to `.env` and fill in your MongoDB, Redis, and SMTP credentials.
    > **Note**: If you don't provide SMTP credentials, the app will use a mock Ethereal mail account and log the OTP preview URL in the console.
-4. `npm run dev` (or `node index.js`)
+4. `node index.js`
 
 ### 2. Frontend Setup
 1. `cd frontend`
@@ -28,12 +28,8 @@ A production-ready Multi-User WhatsApp Messaging SaaS Panel built with React, No
 3. `npm run dev`
 4. Access the app at `http://localhost:5173`
 
-### 3. Using Docker Compose (For DB & Redis)
-In the root directory, run:
-```bash
-docker-compose up -d
-```
-This will start MongoDB and Redis instances locally.
+### 3. Optional Local Databases with Docker
+If you want to run MongoDB and Redis locally with Docker, add a Docker Compose configuration for them in the project root.
 
 ## Deployment
 1. Build the frontend: `cd frontend && npm run build`
