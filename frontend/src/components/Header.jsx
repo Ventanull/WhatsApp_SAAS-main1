@@ -16,7 +16,7 @@ const Header = ({ toggleMobileMenu }) => {
       case '/contacts': return { title: 'Contacts', sub: 'Manage your audience and phone numbers' };
       case '/bulk-messaging': return { title: 'Bulk Campaigns', sub: 'Send mass messages to your contacts' };
       case '/admin': return { title: 'Admin Panel', sub: 'Manage platform users and settings' };
-      default: return { title: 'Digi Ratna', sub: 'WhatsApp Automation' };
+      default: return { title: 'AR media', sub: 'WhatsApp Automation' };
     }
   };
 

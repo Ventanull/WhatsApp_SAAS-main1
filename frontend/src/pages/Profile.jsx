@@ -168,7 +168,7 @@ export default function Profile() {
                     className="w-full bg-gray-50 dark:bg-slate-900 border border-gray-200 dark:border-slate-700 rounded-2xl pl-11 pr-4 py-3 outline-none focus:ring-2 focus:ring-brand-500/20 focus:border-brand-500 transition-all dark:text-white"
                     value={profileData.companyName}
                     onChange={(e) => setProfileData({...profileData, companyName: e.target.value})}
-                    placeholder="Digi Ratna Solutions"
+                    placeholder="AR media Solutions"
                   />
                 </div>
               </div>

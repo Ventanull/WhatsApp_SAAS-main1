@@ -28,7 +28,7 @@ const Sidebar = () => {
             <MessageSquare className="w-5 h-5 text-white transform -rotate-12" />
           </div>
           <div>
-            <h1 className="text-xl font-bold text-gray-900 dark:text-white leading-tight">Digi Ratna</h1>
+            <h1 className="text-xl font-bold text-gray-900 dark:text-white leading-tight">AR media</h1>
             <p className="text-[10px] text-gray-500 dark:text-slate-400 uppercase tracking-wider font-semibold">WhatsApp Automation</p>
           </div>
         </div>
@@ -78,7 +78,7 @@ const Sidebar = () => {
 
         <div className="bg-gray-50 dark:bg-slate-800/50 rounded-xl p-3 flex items-center justify-center gap-2 border border-gray-100 dark:border-slate-700/50">
           <span className="text-[11px] text-gray-500 dark:text-slate-400 flex items-center">
-            Made with <span className="text-pink-500 mx-1">💖</span> by <span className="font-semibold text-brand-600 dark:text-brand-400 ml-1">Digi Ratna</span>
+            Made with <span className="text-pink-500 mx-1">💖</span> by <span className="font-semibold text-brand-600 dark:text-brand-400 ml-1">AR media</span>
           </span>
         </div>
       </div>

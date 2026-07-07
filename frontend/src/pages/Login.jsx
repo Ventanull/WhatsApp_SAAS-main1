@@ -66,7 +66,7 @@ export default function Login() {
             <MessageSquare className="w-8 h-8 text-white transform -rotate-12" />
           </div>
           <h1 className="text-3xl font-black text-slate-900 dark:text-white tracking-tight text-center">
-            Digi Ratna <span className="text-brand-600">WhatsApp</span>
+            AR media <span className="text-brand-600">WhatsApp</span>
           </h1>
           <p className="text-slate-500 dark:text-slate-400 mt-2 font-medium">The most powerful automation platform</p>
         </div>
@@ -166,7 +166,7 @@ export default function Login() {
                         <input
                           type="text"
                           className="w-full bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-2xl px-12 py-4 outline-none focus:ring-4 focus:ring-brand-500/10 focus:border-brand-500 transition-all dark:text-white font-medium"
-                          placeholder="Digi Ratna Solutions"
+                          placeholder="AR media Solutions"
                           value={regData.companyName}
                           onChange={(e) => setRegData({...regData, companyName: e.target.value})}
                         />
